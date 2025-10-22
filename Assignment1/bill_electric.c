@@ -26,4 +26,5 @@ int main() {
     printf("Total electricity bill in correspondence to units consumed(in rupees): %.2f\n", bill);
 
     return 0;
+
 }
