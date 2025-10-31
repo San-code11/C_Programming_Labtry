@@ -1,11 +1,11 @@
 #include <stdio.h>
 
 int main() {
-    int cunits;
+    float cunits;
     float bill;
 
     printf("Enter units of electricity consumed:\n");
-    scanf("%d", &cunits);
+    scanf("%f", &cunits);
     
     //Given below is the corresponding cost of units of electricity with increasing unit consumption
     //Till 100 - 1.5 rupees
@@ -28,3 +28,4 @@ int main() {
     return 0;
 
 }
+
